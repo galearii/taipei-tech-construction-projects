@@ -17,6 +17,8 @@
     "gatsby": "^2.19.7",
     "gatsby-plugin-postcss": "^2.1.21",
     "gatsby-plugin-purgecss": "^4.0.1",
+    "gatsby-source-filesystem": "^2.1.55",
+    "gatsby-transformer-remark": "^2.6.58",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "tailwindcss": "^1.2.0"
