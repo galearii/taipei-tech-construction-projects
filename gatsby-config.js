@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Title from siteMetadata`
+    title: `臺北科技大學校園整建工程`
   },
   plugins: [
     {
