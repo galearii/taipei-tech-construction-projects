@@ -3,14 +3,12 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
-  console.log(data)
   return (
     <Layout>
       <div>
-        <h1>
-          Amazing Pandas Eating Things
-        </h1>
-        <h4>Completed</h4>
+        <img alt="Random Unsplash" src="https://source.unsplash.com/random/800x600" />
+
+        <h4>In Progress</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -30,9 +28,14 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___order], order: ASC }) {
+    allMarkdownRemark(
+      sort: {order: ASC, fields: [frontmatter___order]},
+      filter: {fields: {slug: {regex: "/in-progress/"}}}) {
       edges {
         node {
+          fields {
+            slug
+          }
           id
           frontmatter {
             title
@@ -41,9 +44,6 @@ export const query = graphql`
           excerpt
           html
           timeToRead
-          fields {
-            slug
-          }
         }
       }
     }
