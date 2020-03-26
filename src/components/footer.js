@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return(
-    <footer className="bg-gray-800">
+    <footer className="bg-blue-800 border-b-4 border-solid border-gray-800">
       <nav className="md:flex md:justify-between max-w-4xl mx-auto p-4 md:p-8">
         <ul className="text-white text-sm">
           <li>
@@ -17,7 +17,7 @@ function Footer() {
             10608 台北市忠孝東路三段 1 號 行政大樓 8 樓
           </li>
           <li>
-            TEL: 886-2-2771-2171#1000
+            TEL: 886-2-2771-2171 #1000
           </li>
           <li>
             FAX: 886-2-2751-8845
