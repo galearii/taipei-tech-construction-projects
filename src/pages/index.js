@@ -9,7 +9,21 @@ export default ({ data }) => {
         <img alt="Random Unsplash" src="https://source.unsplash.com/random/800x600" />
 
         <h4>In Progress</h4>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
+        {data.progress.edges.map(({ node }) => (
+          <div key={node.id}>
+            <Link
+              to={node.fields.slug}
+            >
+              <h3>
+                {node.frontmatter.title}{" "}
+              </h3>
+              <p>{node.excerpt}</p>
+            </Link>
+          </div>
+        ))}
+
+        <h4>Completed</h4>
+        {data.completed.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
               to={node.fields.slug}
@@ -28,9 +42,28 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
+    progress: allMarkdownRemark(
       sort: {order: ASC, fields: [frontmatter___order]},
       filter: {fields: {slug: {regex: "/in-progress/"}}}) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          id
+          frontmatter {
+            title
+            order
+          }
+          excerpt
+          html
+          timeToRead
+        }
+      }
+    }
+    completed: allMarkdownRemark(
+      sort: {order: ASC, fields: [frontmatter___order]},
+      filter: {fields: {slug: {regex: "/completed/"}}}) {
       edges {
         node {
           fields {
