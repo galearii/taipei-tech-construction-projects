@@ -1,13 +1,11 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Layout from "../components/layout"
+import IndexLayout from "../components/indexLayout"
 
 export default ({ data }) => {
   return (
-    <Layout>
+    <IndexLayout>
       <div>
-        <img alt="Random Unsplash" src="https://source.unsplash.com/random/800x600" />
-
         <h4>In Progress</h4>
         {data.progress.edges.map(({ node }) => (
           <div key={node.id}>
@@ -36,7 +34,7 @@ export default ({ data }) => {
           </div>
         ))}
       </div>
-    </Layout>
+    </IndexLayout>
   )
 }
 
