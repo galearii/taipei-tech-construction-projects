@@ -1,6 +1,9 @@
 ---
 title: "誠樸樓新建工程"
 order: "B"
+floorArea: "4,447 平方公尺"
+cost: "2 億 8260 萬元"
+schedule: "預計於 2021 年 6 月完工"
 ---
 
 <div>

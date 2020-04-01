@@ -1,8 +1,8 @@
 ---
-title: "東校區教學研究大樓與學生活動中心"
-order: "C"
-floorArea: "53,287 平方公尺"
-cost: "23 億元"
+title: "校史藝文園區工程"
+order: "D"
+floorArea: ""
+cost: "2,500 萬元"
 schedule: "尚未動工"
 ---
 
