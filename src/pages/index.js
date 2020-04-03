@@ -13,10 +13,10 @@ export default ({ data }) => {
         </h3>
         <div className="flex flex-wrap justify-around mb-12">
         {data.progress.edges.map(({ node }) => (
-          <div key={node.id} className="mx-auto mb-4 w-2/3 sm:w-5/12 md:w-32p rounded overflow-hidden shadow-lg">
+          <div key={node.id} className="mx-auto mb-4 w-2/3 sm:w-5/12 md:w-30p rounded overflow-hidden shadow-lg">
             <Link to={node.fields.slug}>
-              <div className="w-full h-40 md:h-32"
-                   style={{ backgroundImage: "url(https://source.unsplash.com/random/480x320)" }} />
+              <div className="w-full h-40 md:h-32 bg-cover bg-center"
+                   style={{ backgroundImage: "url(" + node.fields.slug + "index.jpg)" }} />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{node.frontmatter.title}</div>
                 <p className="text-gray-700 text-base">
@@ -33,12 +33,12 @@ export default ({ data }) => {
             已完成工程
           </span>
         </h3>
-        <div className="md:flex md:justify-around mb-12">
+        <div className="flex flex-wrap justify-around mb-12">
         {data.completed.edges.map(({ node }) => (
-          <div key={node.id} className="w-2/3 mx-auto mb-4 md:w-32p rounded overflow-hidden shadow-lg">
+          <div key={node.id} className="mx-auto mb-4 w-2/3 sm:w-5/12 md:w-30p rounded overflow-hidden shadow-lg">
             <Link to={node.fields.slug}>
               <div className="w-full h-40 md:h-32"
-                   style={{ backgroundImage: "url(https://source.unsplash.com/random/480x320)" }} />
+                   style={{ backgroundImage: "url(" + node.fields.slug + "index.jpg)" }} />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{node.frontmatter.title}</div>
                 <p className="text-gray-700 text-base">
