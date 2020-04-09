@@ -6,11 +6,11 @@ export default ({ data }) => {
   return (
     <IndexLayout>
       <div>
-        <h3 className="text-center text-2xl font-bold mb-6">
+        <h2 className="text-center text-4xl font-bold mb-6">
           <span className="border-solid border-b-4 border-blue-400 pb-2">
             進行中工程
           </span>
-        </h3>
+        </h2>
         <div className="flex flex-wrap justify-around mb-12">
         {data.progress.edges.map(({ node }) => (
           <div key={node.id} className="mx-auto mb-4 w-2/3 sm:w-5/12 md:w-30p rounded overflow-hidden shadow-lg">
@@ -28,11 +28,11 @@ export default ({ data }) => {
         ))}
         </div>
 
-        <h3 className="text-center text-2xl font-bold mb-6">
+        <h2 className="text-center text-4xl font-bold mb-6">
           <span className="border-solid border-b-4 border-green-300 pb-2">
             已完成工程
           </span>
-        </h3>
+        </h2>
         <div className="flex flex-wrap justify-around mb-12">
         {data.completed.edges.map(({ node }) => (
           <div key={node.id} className="mx-auto mb-4 w-2/3 sm:w-5/12 md:w-30p rounded overflow-hidden shadow-lg">

@@ -1,22 +1,14 @@
 ---
 title: "校史藝文園區工程"
-order: "D"
+order: "E"
 floorArea: ""
 cost: "2,500 萬元"
-schedule: "尚未動工"
+schedule: "預計於 2020 至 2021 年分段陸續進行施工"
 ---
 
-<div>
-  <ul>
-    <li>教學研究大樓地下3層地上14層</li>
-    <li>多功能學生活動中心地下2層地上8層"</li>
-  </ul>
+<div class="description">
+  <p>結合一大川堂及紅樓建築，將校史與藝文特色融入其中，作為校史、藝文、商業、公益文創展示地點。</p>
 </div>
 
-<div>
-  <ul>
-    <li><span>總樓地板面積</span><span>53287平方公尺</span></li>
-    <li><span>總工程經費</span><span>23億元</span></li>
-    <li><span>相關期程</span><span>-</span></li>
-  </ul>
-</div>
+###位置
+![校史藝文園區位置圖](/in-progress/school-history-and-exhibition-area/map.png)

@@ -8,10 +8,14 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h2 className="text-2xl font-bold mb-6">
-          <span className="border-solid border-b-4 border-blue-400 pb-2">
+        <a href="/" className="text-blue-500 hover:text-blue-700">← 回首頁</a>
+      </div>
+
+      <div>
+        <h2 className="text-4xl font-bold mb-6">
+
             {post.frontmatter.title}
-          </span>
+
         </h2>
 
         <div className="mb-6 pb-6 border-b md:flex md:justify-between">
@@ -56,7 +60,7 @@ export default ({ data }) => {
           </div>
         </div>
 
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="project-detail-content" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
   )

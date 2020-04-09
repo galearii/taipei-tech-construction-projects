@@ -1,0 +1,20 @@
+.project-detail-content h3 {
+  @apply text-2xl mb-4;
+}
+
+.project-detail-content p {
+  @apply mb-4 pb-4;
+}
+
+.project-detail-content ul {
+  @apply list-disc list-inside mb-4;
+}
+
+.project-detail-content .description {
+  @apply p-8 text-lg w-4/5 mx-auto mb-8 rounded;
+  background: rgba(34,193,195,0.7); background: linear-gradient(79deg, rgba(34,193,195,0.7) 0%, rgba(253,187,45,0.8) 100%);
+}
+
+.project-detail-content .description p:nth-last-child(1) {
+  @apply mb-0;
+}

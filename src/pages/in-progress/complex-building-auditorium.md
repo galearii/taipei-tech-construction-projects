@@ -2,20 +2,16 @@
 title: "綜合科館演藝廳整修工程"
 order: "D"
 floorArea: "475 平方公尺"
-cost: "3800 萬"
+cost: "3,800 萬"
 schedule: "預計 2020 年暑假進行施工"
 ---
 
-<div>
-  <ul>
-    <li>預計容納363席</li>
-  </ul>
+<div class="description">
+  <p>將綜合科館第一演講廳改造為專業演藝廳，配置高優質演藝廳專業用椅、音樂反射板、吸音板、電動吸音幕、演奏型鋼琴等專業設備。</p>
 </div>
 
-<div>
-  <ul>
-    <li><span>總樓地板面積</span><span>475平方公尺</span></li>
-    <li><span>總工程經費</span><span>3800 萬</span></li>
-    <li><span>相關期程</span><span>預計 2020 年暑假進行施工</span></li>
-  </ul>
-</div>
+###樓層說明
+預計容納 363 席
+
+###位置
+![綜合科館演藝廳位置圖](/in-progress/complex-building-auditorium/map.png)
