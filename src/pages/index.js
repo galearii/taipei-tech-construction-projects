@@ -20,7 +20,7 @@ export default ({ data }) => {
               <div className="px-6 py-4">
                 <div className="text-xl mb-2">{node.frontmatter.title}</div>
                 <p className="text-gray-700 text-base">
-                  <span className="border-b-4 border-indigo-400">
+                  <span className="">
                     總工程經費</span> {node.frontmatter.cost}
                 </p>
               </div>
@@ -43,7 +43,7 @@ export default ({ data }) => {
               <div className="px-6 py-4">
                 <div className="text-xl mb-2">{node.frontmatter.title}</div>
                 <p className="text-gray-700 text-base">
-                  <span className="border-b-4 border-indigo-400">
+                  <span className="">
                     總工程經費</span> {node.frontmatter.cost}
                 </p>
               </div>
@@ -73,7 +73,6 @@ export const query = graphql`
             order
             cost
           }
-          excerpt
           html
           timeToRead
         }
@@ -91,8 +90,8 @@ export const query = graphql`
           frontmatter {
             title
             order
+            cost
           }
-          excerpt
           html
           timeToRead
         }
