@@ -14,13 +14,14 @@ export default ({ data }) => {
         <div className="flex flex-wrap justify-around mb-12">
         {data.progress.edges.map(({ node }) => (
           <div key={node.id} className="mx-auto mb-4 w-2/3 sm:w-5/12 md:w-30p rounded overflow-hidden shadow-lg">
-            <Link to={node.fields.slug}>
+            <Link to={node.fields.slug} className="hover:text-green-600">
               <div className="w-full h-40 md:h-32 bg-cover bg-center"
                    style={{ backgroundImage: "url(" + node.fields.slug + "index.jpg)" }} />
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">{node.frontmatter.title}</div>
+                <div className="text-xl mb-2">{node.frontmatter.title}</div>
                 <p className="text-gray-700 text-base">
-                  {node.excerpt}
+                  <span className="border-b-4 border-indigo-400">
+                    總工程經費</span> {node.frontmatter.cost}
                 </p>
               </div>
             </Link>
@@ -36,13 +37,14 @@ export default ({ data }) => {
         <div className="flex flex-wrap justify-around mb-12">
         {data.completed.edges.map(({ node }) => (
           <div key={node.id} className="mx-auto mb-4 w-2/3 sm:w-5/12 md:w-30p rounded overflow-hidden shadow-lg">
-            <Link to={node.fields.slug}>
-              <div className="w-full h-40 md:h-32"
+            <Link to={node.fields.slug} className="hover:text-green-600">
+              <div className="w-full h-40 md:h-32 bg-cover bg-center"
                    style={{ backgroundImage: "url(" + node.fields.slug + "index.jpg)" }} />
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">{node.frontmatter.title}</div>
+                <div className="text-xl mb-2">{node.frontmatter.title}</div>
                 <p className="text-gray-700 text-base">
-                  {node.excerpt}
+                  <span className="border-b-4 border-indigo-400">
+                    總工程經費</span> {node.frontmatter.cost}
                 </p>
               </div>
             </Link>
@@ -69,6 +71,7 @@ export const query = graphql`
           frontmatter {
             title
             order
+            cost
           }
           excerpt
           html
