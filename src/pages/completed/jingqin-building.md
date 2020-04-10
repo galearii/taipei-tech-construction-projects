@@ -14,3 +14,5 @@ schedule: "即將竣工"
 - 地下 4 層（B1 商業空間、B2-B4 停車空間）
 - 地上 14 層（1-3F 商業空間、4-14F 辦公空間）
 
+###位置
+![精勤樓位置圖](/completed/jingqin-building/map.png)
