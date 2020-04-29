@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import ImageListComponent from "../components/imageListComponent"
 
 export default ({ data }) => {
   const post = data.markdownRemark
@@ -13,9 +14,7 @@ export default ({ data }) => {
 
       <div>
         <h2 className="text-4xl font-bold mb-6">
-
             {post.frontmatter.title}
-
         </h2>
 
         <div className="mb-6 pb-6 border-b md:flex md:justify-between">
@@ -61,6 +60,10 @@ export default ({ data }) => {
         </div>
 
         <div className="project-detail-content" dangerouslySetInnerHTML={{ __html: post.html }} />
+
+        {post.frontmatter.imageList &&
+          <ImageListComponent imageList={post.frontmatter.imageList} />
+        }
       </div>
     </Layout>
   )
@@ -78,6 +81,7 @@ export const query = graphql`
         floorArea
         cost
         schedule
+        imageList
       }
     }
   }

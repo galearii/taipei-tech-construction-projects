@@ -4,6 +4,9 @@ order: "B"
 floorArea: "4,447 平方公尺"
 cost: "2 億 8260 萬元"
 schedule: "預計於 2021 年 6 月完工"
+imageList:
+  - "/in-progress/chengpu-building/night"
+  - "/in-progress/chengpu-building/day"
 ---
 
 ###樓層說明
