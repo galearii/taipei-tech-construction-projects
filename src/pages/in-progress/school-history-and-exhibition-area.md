@@ -4,6 +4,12 @@ order: "E"
 floorArea: ""
 cost: "2,500 萬元"
 schedule: "預計於 2020 至 2021 年分段陸續進行施工"
+imageList:
+  - "/in-progress/school-history-and-exhibition-area/corridor1"
+  - "/in-progress/school-history-and-exhibition-area/corridor2"
+  - "/in-progress/school-history-and-exhibition-area/historyBuildingSign"
+  - "/in-progress/school-history-and-exhibition-area/alumniWall1"
+  - "/in-progress/school-history-and-exhibition-area/alumniWall2"
 ---
 
 <div class="description">

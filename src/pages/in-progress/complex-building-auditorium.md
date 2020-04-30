@@ -4,6 +4,13 @@ order: "D"
 floorArea: "475 平方公尺"
 cost: "3,800 萬"
 schedule: "預計 2020 年暑假進行施工"
+imageList:
+  - "/in-progress/complex-building-auditorium/overall2"
+  - "/in-progress/complex-building-auditorium/overall1"
+  - "/in-progress/complex-building-auditorium/door"
+  - "/in-progress/complex-building-auditorium/table3"
+  - "/in-progress/complex-building-auditorium/table2"
+  - "/in-progress/complex-building-auditorium/table1"
 ---
 
 <div class="description">

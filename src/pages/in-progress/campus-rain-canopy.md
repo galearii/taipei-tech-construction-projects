@@ -4,6 +4,10 @@ order: "F"
 floorArea: ""
 cost: "2,000 萬元"
 schedule: "預計於 2019 至 2021 年分段陸續進行施工"
+imageList:
+  - "/in-progress/campus-rain-canopy/canopy1"
+  - "/in-progress/campus-rain-canopy/canopy2"
+  - "/in-progress/campus-rain-canopy/canopy3"
 ---
 
 <div class="description">

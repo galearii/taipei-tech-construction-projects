@@ -4,6 +4,11 @@ order: "C"
 floorArea: "53,287 平方公尺"
 cost: "23 億元"
 schedule: "尚未動工"
+imageList:
+  - "/in-progress/east-campus-academic-and-activity-building/center2"
+  - "/in-progress/east-campus-academic-and-activity-building/center1"
+  - "/in-progress/east-campus-academic-and-activity-building/pool"
+  - "/in-progress/east-campus-academic-and-activity-building/auditorium"
 ---
 
 <div class="description">
