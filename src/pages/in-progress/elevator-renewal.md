@@ -1,7 +1,7 @@
 ---
 title: "校園老舊電梯更新"
 order: "K"
-floorArea: ""
+floorArea: "無"
 cost: "2,750 萬元"
 schedule: "尚未動工"
 ---

@@ -4,6 +4,10 @@ order: "I"
 floorArea: "1,400 平方米"
 cost: "2,180 萬元"
 schedule: "尚未動工"
+imageList:
+  - "/in-progress/guanghua-building-restaurant/1FPlan"
+  - "/in-progress/guanghua-building-restaurant/2FPlan"
+  - "/in-progress/guanghua-building-restaurant/entrance"
 ---
 
 <div class="description">

@@ -4,6 +4,12 @@ order: "J"
 floorArea: ""
 cost: "1,781 萬元"
 schedule: "尚未動工"
+imageList:
+  - "/in-progress/dormitory-renovation/bedroom1"
+  - "/in-progress/dormitory-renovation/bedroom2"
+  - "/in-progress/dormitory-renovation/commonArea"
+  - "/in-progress/dormitory-renovation/corridor"
+  - "/in-progress/dormitory-renovation/restroom"
 ---
 
 <div class="description">
