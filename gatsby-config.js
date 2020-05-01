@@ -6,7 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: `臺北科技大學校園整建工程`
+    title: `臺北科技大學校園整建工程`,
+    description: `一磚一瓦，永續北科：臺北科技大學校園整建工程介紹與捐贈方式。`
   },
   plugins: [
     {
@@ -49,5 +50,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
   ]
 }

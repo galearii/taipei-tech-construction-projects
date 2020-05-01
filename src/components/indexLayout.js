@@ -2,10 +2,16 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import HeroImageComponent from "./heroImageComponent";
+import { Helmet } from "react-helmet";
 
 function IndexLayout({ children }) {
   return (
     <div className="flex flex-col font-sans min-h-screen text-gray-900 bg-gray-100">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>臺北科技大學校園整建工程</title>
+      </Helmet>
+
       <Header />
 
       <HeroImageComponent />
