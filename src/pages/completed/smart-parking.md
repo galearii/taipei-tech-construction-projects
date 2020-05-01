@@ -4,6 +4,10 @@ order: "F"
 floorArea: ""
 cost: "250 萬元"
 schedule: "已於 2019 年 10 月完工"
+imageList:
+  - "/completed/smart-parking/entrance1"
+  - "/completed/smart-parking/entrance2"
+  - "/completed/smart-parking/sensor"
 ---
 
 <div class="description">

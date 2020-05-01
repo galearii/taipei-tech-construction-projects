@@ -4,6 +4,10 @@ order: "I"
 floorArea: ""
 cost: "170 萬元"
 schedule: "已於 2018 年 12 月完工"
+imageList:
+  - "/completed/office-renovation/office1"
+  - "/completed/office-renovation/office2"
+  - "/completed/office-renovation/office3"
 ---
 
 <div class="description">

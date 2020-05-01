@@ -4,6 +4,11 @@ order: "B"
 floorArea: "17,860 平方公尺"
 cost: "7 億 4000 萬元"
 schedule: "即將竣工"
+imageList:
+  - "/completed/jingqin-building/building1"
+  - "/completed/jingqin-building/building2"
+  - "/completed/jingqin-building/building3"
+  - "/completed/jingqin-building/building4"
 ---
 
 <div class="description">

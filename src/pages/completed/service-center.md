@@ -4,6 +4,10 @@ order: "E"
 floorArea: ""
 cost: "590 萬元"
 schedule: "已於 2019 年 9 月完工"
+imageList:
+  - "/completed/service-center/exterior"
+  - "/completed/service-center/interior1"
+  - "/completed/service-center/interior2"
 ---
 
 <div class="description">

@@ -4,6 +4,11 @@ order: "C"
 floorArea: ""
 cost: "800 萬元"
 schedule: "已於 2019 年 5 月 5 日竣工"
+imageList:
+  - "/completed/art-center-renovation/artCenter1"
+  - "/completed/art-center-renovation/artCenter2"
+  - "/completed/art-center-renovation/artCenter3"
+  - "/completed/art-center-renovation/artCenter4"
 ---
 
 <div class="description">

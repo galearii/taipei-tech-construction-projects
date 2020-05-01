@@ -4,6 +4,10 @@ order: "D"
 floorArea: "約 9,180 平方公尺"
 cost: "8,400 萬元"
 schedule: "已於 2019 年 5 月完工"
+imageList:
+  - "/completed/building-reinforcement/reinforcement1"
+  - "/completed/building-reinforcement/reinforcement2"
+  - "/completed/building-reinforcement/reinforcement3"
 ---
 
 <div class="description">

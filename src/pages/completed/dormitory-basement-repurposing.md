@@ -4,6 +4,9 @@ order: "G"
 floorArea: ""
 cost: "788 萬元"
 schedule: "已於 2019 年 10 月完工"
+imageList:
+  - "/completed/dormitory-basement-repurposing/library1"
+  - "/completed/dormitory-basement-repurposing/library2"
 ---
 
 <div class="description">
