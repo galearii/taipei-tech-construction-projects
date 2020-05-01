@@ -4,6 +4,10 @@ order: "K"
 floorArea: "無"
 cost: "2,750 萬元"
 schedule: "尚未動工"
+imageList:
+  - "/in-progress/elevator-renewal/doors"
+  - "/in-progress/elevator-renewal/interior"
+  - "/in-progress/elevator-renewal/panel"
 ---
 
 <div class="description">
