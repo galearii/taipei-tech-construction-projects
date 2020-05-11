@@ -3,30 +3,10 @@ import React from "react";
 function Footer() {
   return(
     <footer className="bg-blue-800 border-b-4 border-solid border-gray-800">
-      <nav className="md:flex md:justify-between max-w-4xl mx-auto p-4 md:p-8">
-        <ul className="text-white text-sm">
-          <li>
-            <a
-              className="font-bold no-underline text-white"
-              href="https://sec.ntut.edu.tw/"
-            >
-              國立臺北科技大學秘書室
-            </a>
-          </li>
-          <li>
-            10608 台北市忠孝東路三段 1 號 行政大樓 8 樓
-          </li>
-          <li>
-            TEL: 886-2-2771-2171 #1000
-          </li>
-          <li>
-            FAX: 886-2-2751-8845
-          </li>
-        </ul>
-
-        <p>
+      <nav className="max-w-4xl mx-auto p-4 md:p-8">
+        <p className="text-center">
           <a
-            className="block rounded p-4 text-xl text-white bg-green-500 hover:bg-green-700 mt-4 md:mt-0 text-center md:text-left"
+            className="block rounded p-4 text-xl text-white bg-green-500 hover:bg-green-700 mt-4 md:mt-0 text-center text-left"
             href="https://newgiving.ntut.edu.tw/"
           >
             前往臺北科技大學捐贈網站
